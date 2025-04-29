@@ -16,3 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+sed -i 's/src-git 360packages https:\/\/github.com\/wwz09\/360v6-packages/src-git MyPackages https:\/\/github.com\/koksaver\/MyOpenWrtPackages/' feeds.conf.default
